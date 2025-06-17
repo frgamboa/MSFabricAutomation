@@ -19,6 +19,7 @@ In my case, after creating the runbook I created a schedule, to have this runnin
 ## To learn more about the azure built-in roles
 Azure [Builtin roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
 
+To ensure that the registered application has the appropriate permissions to perform the tasks in teh fabric capacity.
 
 ## Disclaimer
 
