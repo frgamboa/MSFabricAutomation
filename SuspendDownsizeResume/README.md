@@ -1,4 +1,4 @@
-# microsoft Fabric Suspend and Downsize scripts 
+# Microsoft Fabric Suspend and Downsize scripts 
 
 In order for the scripts to work, you need to create an application in Microsoft Entra, and then you will need to grant contributor access in Microsoft Fabric to this application you created in Entra, then create an automation account in Azure, in which you can implement the code. Once the code is implemented, you can create the schedule and assign it to the runbook.
 
