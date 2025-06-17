@@ -6,17 +6,17 @@ I am sharing these as an alternative for people who may be in this situations, I
 
 
 ## To register an application in EntraId
-Yo can refer to [this](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app?tabs=certificate) link to have detailed isntructions on how to register the application. Please keep in mind that the secret will only be visible right after creating it, as you will need it to customize the scripts
+You can refer to [this](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app?tabs=certificate) link to have detailed isntructions on how to register the application. Please keep in mind that the secret will only be visible right after creating it, as you will need it to customize the scripts
 
 
-## To create teh automation runbook:
+## To create the automation runbook:
 
 Azure automation [run books](https://learn.microsoft.com/en-us/azure/automation/overview)
 
 In my case, after creating the runbook I created a schedule, to have this running periodically, other uses are to create webhooks that you can invoke from your data pipelines in fabric (to upsize it at teh begining of the data orchestration activities, or downsizing it, once teh data orchestratino activities are done).
 
 
-## To learn more about the azure built-in roles
+## To learn more about the Azure built-in roles
 Azure [Builtin roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
 
 To ensure that the registered application has the appropriate permissions to perform the tasks in teh fabric capacity.
